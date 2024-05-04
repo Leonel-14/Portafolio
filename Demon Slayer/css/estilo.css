@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'bloodcrow';
+    src: url(../fuente/bloodcrow.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado h1{
+    font-size: 200%;
+    font-family: 'bloodcrow';
+    margin-left: 15px;
+    text-shadow: 2px 5px black;
+    color: white;
+}
+.encabezado a{
+    font-size: 150%;
+    margin-right: 15px;
+    text-decoration: none;
+    font-family: 'bloodcrow';
+    color: white;
+}
+.encabezado,footer{
+    background-color: #F63647;
+    
+}
+.encabezado{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content:space-between;
+}
+/**-----------------**/
+.contenedor-sipnosis{
+    width: 100%;
+    height: 100vh;
+    background: url(https://preview.redd.it/demon-slayer-wallpaper-1920x1080-v0-ljh324ybbvma1.jpg?auto=webp&s=213c6788a5f82fb81423fa535f379ab4047b92dd);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+.sipnosis{
+    background-color: rgba(53, 53, 53, 0.4);
+    backdrop-filter: opacity(10px);
+}
+.contenedor-sipnosis h2{
+    text-align: center;
+    font-family: 'bloodcrow';
+    font-size: 40px;
+    color: white;
+    text-shadow: 8px 8px 5px black;
+}
+.contenedor-portada-descripcion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+
+}
+.contenedor-portada-descripcion img{
+    width: 50%;
+    height: 90%;
+    border: 3px solid black;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px black;
+}
+.contenedor-portada-descripcion p{
+    font-size: 28px;
+    color: white;
+    font-family:'bloodcrow';
+    margin-right: 20px;
+}
+/*-------------------------------*/
+.contenedor-personajes h2, .openings h2
+{
+    color: white;
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: 'bloodcrow';
+}
+.contenedor-personajes{
+    width: 100%;
+    height: 100vh;
+    background: url(https://preview.redd.it/demon-slayer-2560x1440-v0-j8ywgxl408l81.jpg?auto=webp&s=bad1468ab81a1c27c5b90fc8d13edb85371e78d1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-position: bottom;
+    
+}
+  .contenedor-cartas{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+    height: 100hv;
+  }
+  .carta{
+    width: 190px;
+    height: 280px;
+    background-color: black;
+    border-radius: 15px;
+    border: 3px solid black;
+    overflow: hidden;
+    transition: 0.2s;
+  }
+  .carta:hover{
+    box-shadow: 5px 5px 5px #232323;
+    transform: scale(1.1)
+  }
+  .carta img{
+    width: 100%;
+    height: 100%;
+  }
+/**------------------------------------------------------------**/
+.openings{
+    background: url(../iloveimg-resized/fondo-videos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.contenedor-openings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+}
+.opening{
+    text-align: center; 
+    width: 450px;
+    height: 240px;
+    margin-bottom: 10px;
+}
+.opening p{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'bloodcrow';
+}
+/**---------------------------------------**/
+.pie-pagina{
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.pie-pagina .logo{
+    width: 90px;
+    height: 90%;
+}
+.pie-pagina p{
+    font-size: 25px;
+}
+
+.contenedor-redes{
+    display: flex;
+    height: 100%;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.red img{
+    height: 60%;
+    width: 40px;
+}
