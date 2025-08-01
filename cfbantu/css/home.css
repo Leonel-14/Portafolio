@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    
+    
+}
+header , footer{
+    max-width: 100%;
+    height: 60px;
+    background-color: black;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+section{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+     margin-left: 20px;
+    
+}
+.logo img{
+    width: 100%;
+}
+.cont_links_nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+    width: 30em
+}
+.cont_links_nav .link_nav{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+
+}
+
+.seccion_inicio{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #1e1e1e;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.seccion_inicio .cont_img_slider_inicio{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+
+}
+.cont_img_slider_inicio img{
+    width: 100%;
+    position: relative;
+    
+}
+.texto_presentacion{
+    width: 50em;
+    height: min-content;
+    position: absolute;
+    background-color: rgba(114, 114, 114,0.7);
+    z-index: 1;
+    padding: 2em;
+    border-radius: 30px;
+
+}
+.texto_presentacion p{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #1e1e1e;
+    padding: 10px;
+    top: 26px;
+    z-index: 1;
+    
+}
+.dropdown {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+}
+.dropdown:hover{
+    background-color: #1e1e1e;
+
+}
+.dropdown:hover .submenu {
+    display: block;
+}
+.sub_link_maquinas{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/home.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="./img/icono.png" type="image/x-icon">
+    <title>Café Bantu</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="./img/logo-removebg-preview.png"></div>
+            <div class="cont_links_nav">
+                <a href="#" class="link_nav">Inicio</a>
+                <div class="dropdown">
+                    <a href="#" class="link_nav maquinas">Maquinas</a>
+                    <!--inicio submenu-->
+                    <div class="submenu">
+                        <a class="sub_link_maquinas" href="#">Cafe</a>
+                        <a class="sub_link_maquinas" href="#">Snacks</a>
+                    </div>
+                    <!--fin de submenu-->
+                </div>
+                <a href="#" class="link_nav">Servicios</a>
+                <a href="#" class="link_nav">Contacto</a>
+            </div>
+        </nav>
+    </header>
+    <section class="seccion_inicio">
+        <div class="texto_presentacion" data-aos="fade-up">
+            <p>Café Bantu ofrece soluciones completas para el consumo de café en oficinas, empresas y espacios públicos.
+                Nos especializamos en el alquiler de máquinas expendedoras de café, la venta de granos seleccionados y
+                un servicio integral de reposición de insumos y asistencia técnica.
+                Instalamos equipos por transporte propio, proveemos café de alta calidad en distintas variedades, y
+                garantizamos el mantenimiento y recarga periódica para que nuestros clientes no tengan que preocuparse
+                por nada.
+                Nuestro compromiso es brindar un servicio eficiente, confiable y adaptado a cada necesidad.</p>
+        </div>
+        <div class="swiper-container mySwiper cont_img_slider_inicio">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./img/slider_home/1bn.jpg"></div>
+                <div class="swiper-slide"><img src="./img/slider_home/2bn.jpg"></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./js/slider_home.js"></script>
+</body>
+
+</html>
