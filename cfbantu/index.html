@@ -8,6 +8,10 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="shortcut icon" href="./img/icono.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Café Bantu</title>
 </head>
 
@@ -17,12 +21,14 @@
             <div class="logo"><img src="./img/logo-removebg-preview.png"></div>
             <div class="cont_links_nav">
                 <a href="#" class="link_nav">Inicio</a>
-                <div class="dropdown">
-                    <a href="#" class="link_nav maquinas">Maquinas</a>
+                <div class="menu">
+                    <a class="link_nav maquinas">Maquinas</a>
                     <!--inicio submenu-->
                     <div class="submenu">
-                        <a class="sub_link_maquinas" href="#">Cafe</a>
+                        <div class="cont_sub_links">
+                        <a class="sub_link_maquinas" href="/html/maquinas.html">Cafe</a>
                         <a class="sub_link_maquinas" href="#">Snacks</a>
+                        </div>
                     </div>
                     <!--fin de submenu-->
                 </div>
@@ -32,24 +38,63 @@
         </nav>
     </header>
     <section class="seccion_inicio">
-        <div class="texto_presentacion" data-aos="fade-up">
-            <p>Café Bantu ofrece soluciones completas para el consumo de café en oficinas, empresas y espacios públicos.
-                Nos especializamos en el alquiler de máquinas expendedoras de café, la venta de granos seleccionados y
-                un servicio integral de reposición de insumos y asistencia técnica.
-                Instalamos equipos por transporte propio, proveemos café de alta calidad en distintas variedades, y
-                garantizamos el mantenimiento y recarga periódica para que nuestros clientes no tengan que preocuparse
-                por nada.
-                Nuestro compromiso es brindar un servicio eficiente, confiable y adaptado a cada necesidad.</p>
+        <div class="cont_logo">
+            <img src="/img/logo-removebg-preview.png">
         </div>
-        <div class="swiper-container mySwiper cont_img_slider_inicio">
+        <div class="swiper-container mySwiper cont_img_slider_inicio" data-aos="zoom-in">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="./img/slider_home/1bn.jpg"></div>
-                <div class="swiper-slide"><img src="./img/slider_home/2bn.jpg"></div>
+                <div class="swiper-slide"><img src="./img/slider_home/sld_color/1.png"></div>
+                <div class="swiper-slide"><img src="./img/slider_home/sld_color/2.png"></div>
+                <div class="swiper-slide"><img src="./img/slider_home/sld_color/3.png"></div>
+                <div class="swiper-slide"><img src="./img/slider_home/sld_color/4.png"></div>
+                <div class="swiper-slide"><img src="./img/slider_home/sld_color/5.png"></div>
+                <div class="swiper-slide"><img src="./img/slider_home/sld_color/6.png"></div>
+            </div>
+        </div>
+        <div class="cont_texto" data-aos="fade-up">
+            <div class="cont_texto_img">
+                <div><img src="./img/home/oficina.png" alt=""></div>
+                <p>Café Bantu ofrece soluciones completas para el consumo de café en oficinas, empresas y espacios públicos.</p>
+            </div>
+             <div class="cont_texto_img">
+                <div><img src="./img/home/maquina-expendedora.png" alt=""></div>
+                <p>Nos especializamos en el alquiler de máquinas expendedoras de café, la venta de granos seleccionados y
+                un servicio integral de reposición de insumos y asistencia técnica.</p>
+            </div>
+            <div class="cont_texto_img">
+                <div><img src="./img/home/camion.png" alt=""></div>
+                <p>Instalamos equipos por transporte propio, proveemos café de alta calidad en distintas variedades, y
+                garantizamos el mantenimiento y recarga periódica para que nuestros clientes no tengan que preocuparse
+                por nada.</p>
+            </div>
+            <div class="cont_texto_img">
+                <div><img src="./img/home/public-service.png" alt=""></div>
+                <p>Nuestro compromiso es brindar un servicio eficiente, confiable y adaptado a cada necesidad.</p>
             </div>
         </div>
     </section>
     <footer>
-
+        <nav class="cont_nav">
+            <div class="cont_redes">
+                <a href="https://www.instagram.com/cafebantu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/cafebantu/?locale=es_LA" target="_blank">
+                <i class="fa-brands fa-facebook" ></i>
+                </a>
+                <a href=" https://wa.me/+541126393433" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+            <div class="cont_derechos">
+                <p style="color: #ffffff;">&copy;Todos los derechos reservadors por CLOFEA SRL</p>
+                
+            </div>
+            <div class="cont_datos_contacto">
+                <p style="color: #ffffff;">Horario de Atencion: Lunes a Viernes 09hs-17hs</p>
+                <p  style="color: #ffffff;">Ubicacion: Dr. Eduardo Jenner 1805 <a href="https://maps.app.goo.gl/tnHmzsNdJD6RUVGc8"><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i></a></p>
+            </div>
+        </nav>
     </footer>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
