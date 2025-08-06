@@ -36,18 +36,27 @@ body{
 }
 .cont_detalles{
     display: grid;
+    width: 100%;
     grid-template-columns: 1fr 1fr;
 }
-.cont_bebida{
-    width: 20em;
- 
-}
+
 .cont_producto i, .cont_producto p ,.cont_descripcion p{
     font-size: 1.5em;
 }
 .cont_bebida{
     display: flex;
     align-items: center;
-    flex-wrap: nowrap;
     gap: 5px;
+    width: 18em;
+    border-radius: 30px;
+    margin: 5px;
+}
+.cont_bebida:hover {
+    background-color: #4e4e4e;
+}
+
+
+.cont_producto{
+    display: flex;
+    flex-wrap: wrap;
 }
